@@ -71,6 +71,7 @@ a:hover {
   line-height: 1;
   color: #AA8C15;
   padding: 0 10px;
+  text-shadow: 0 0 10px rgba(170, 140, 21, 0.5);
 }
 .cb-slideshow li:nth-child(1) span {
   background-image: url(1.jpg)
@@ -349,13 +350,4 @@ a:hover {
     transform: scale(10);
   }
   100% { opacity: 0 }
-}
-@media screen and (max-width: 1140px) {
-
-}
-@media screen and (max-width: 600px) {
-
-}
-@media screen and (max-width: 980px) {
-
 }
